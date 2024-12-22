@@ -1,0 +1,89 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background: #121212;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Container for Terms */
+  .terms-container {
+    max-width: 800px;
+    padding: 20px;
+    background: linear-gradient(145deg, #1e1e2f, #34345e);
+    box-shadow: 0px 4px 20px rgba(0, 255, 255, 0.2);
+    border-radius: 15px;
+    text-align: left;
+    animation: fadeIn 0.8s ease-in-out;
+  }
+  
+  /* Title Styles */
+  .terms-title {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #00ffff;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px #00ffff, 0 0 20px rgba(0, 255, 255, 0.5);
+  }
+  
+  /* Section Styles */
+  .terms-section h2 {
+    font-size: 1.8rem;
+    margin-top: 20px;
+    color: #ff0080;
+    text-shadow: 0 0 8px #ff0080, 0 0 15px rgba(255, 0, 128, 0.5);
+    border-bottom: 2px solid rgba(255, 0, 128, 0.4);
+    padding-bottom: 5px;
+  }
+  
+  .terms-section p {
+    margin: 10px 0;
+    font-size: 1.1rem;
+    color: #dcdcdc;
+  }
+  
+  /* Note Styles */
+  .terms-note {
+    margin-top: 30px;
+    font-size: 1rem;
+    text-align: center;
+    color: #888;
+  }
+  
+  /* Fade-in animation for smooth appearance */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .terms-container {
+      padding: 15px;
+    }
+  
+    .terms-title {
+      font-size: 2rem;
+    }
+  
+    .terms-section h2 {
+      font-size: 1.5rem;
+    }
+  
+    .terms-section p {
+      font-size: 1rem;
+    }
+  }
+  
